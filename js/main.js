@@ -58,6 +58,12 @@
 			
 			
 		});
+		$('body').on('click', '.nav-item', function(event){
+
+			event.preventDefault(); 
+			$('#ftco-nav').removeClass('show')
+			
+		});
 
 	};
 	burgerMenu();
